@@ -1,49 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <title>Atharv Attri - About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap" rel="stylesheet">
-</head>
-
-<body class="main">
-    <div class="topnav">
-        <a class="active" class="name" href="https://github.com/Atharv-Attri">@Atharv-Attri</a>
-
-        <div class="topnav-right">
-            <a href="./index.html"><svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-house"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                    <path fill-rule="evenodd"
-                        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
-                </svg></a>
-            <a href="./About_me.html">About Me</a>
-            <a href="#">My Work</a>
-        </div>
-    </div>
-
-
-    <div class="top-parallax">
-        <div style="background-color: rgb(60, 60, 60); height: 150px;"></div>
-        <div style="background-color: rgb(0, 0, 0); height: 200px; vertical-align: middle;">
-        </div>
-        <div style="background-color: rgb(60, 60, 60); height: 100px;"></div>
-
-    </div>
-    <div class="text1">
-        <h1>About Me</h1>
-        <p>I'm hosted with GitHub Pages.</p>
-        <h3> Site in progress. Full site coming soon</h3>
-    </div>
+    <link href="scroll.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            $("#header").load("navbar.html");
+        });
+    </script>
     <style>
         .topnav {
-            background-color: #333;
+            background-color: rgb(20, 20, 20);
             overflow: hidden;
             position: fixed;
             width: 100%;
-            z-index: 10;
+            z-index: 50;
         }
 
         .topnav a {
@@ -70,13 +50,9 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        .text1 {
-            height: 250px;
-            margin-top: 0px;
-            font-family: 'Roboto', sans-serif;
-        }
 
         .top-parallax {
+            background-image: url("para1.jpg");
             height: 500px;
             border: black;
             background-attachment: fixed;
@@ -92,10 +68,80 @@
             vertical-align: middle;
             height: 90%;
         }
-        img {
-        border-radius: 50%;
-        }
     </style>
+</head>
+
+<body class="main" style="background-color: rgb(0, 0, 0);">
+    <div class="topnav" id="header">
+
+    </div>
+
+    <svg width="1.4em" height="1.4em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg" style="padding-left: 50%;">
+        <path fill-rule="evenodd"
+            d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z" />
+    </svg>
+    <div style="height:300px;">
+        <h1 style="padding-top:10%;text-align: center; font-size: 100px; font-family: 'Josefin Sans', sans-serif; color:white; background:
+      -webkit-linear-gradient(10deg,#43C6AC, #F8FFAE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;">At A Glance<br><br>
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="white"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                    d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z" />
+            </svg>
+        </h1>
+
+    </div>
+
+
+    <section class="text1" style="background-color: rgb(10, 10, 10); padding-top: 50px; padding-left:5%;">
+        <h1 style="font-family: 'Josefin Sans', sans-serif; font-size: 60px;color:white;">5 years of experience</h1>
+    </section>
+    <section class="text1" style=" background-color: rgb(10, 10, 10); text-align: right;">
+        <h1 style="font-family: 'Josefin Sans', sans-serif; font-size: 60px;color: white; padding-right: 5%;">Proficient
+            In...</h1>
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 40px;color:white; text-align: left; padding-left:66%;">
+            <ul>
+                <li>Python</li>
+                <li>C</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>Web Frameworks</li>
+                <ul>
+                    <li>Django</li>
+                    <li>Flask</li>
+                </ul>
+            </ul>
+        </h3>
+
+    </section>
+    <section class="text1"
+        style="height: 350px; background-color: rgb(10, 10, 10); padding-top: 50px; padding-left:5%;">
+        <h1 style="font-family: 'Roboto', sans-serif; font-size: 60px;color:white;">Contact</h1>
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 40px; color:white;">Do you want to contact me?*</h3>
+        <h3 style="font-family: 'Roboto', sans-serif; font-size: 30px; color:white;">You can contact me on discord at
+            randomNerd#2906</h3>
+
+
+        <a href="https://discord.com/" style="text-decoration: none;">
+            <h3 style="font-family: 'Bebas Neue', cursive; font-size: 50px;  background:
+      -webkit-linear-gradient(10deg,#fe8c00, #f83600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;">TAKE ME THERE<svg width="1em" height="0.75em" viewBox="0 0 16 16"
+                    class="bi bi-chevron-compact-right" fill=#fe8c03 xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z" />
+                </svg></h3>
+        </a>
+    </section>
+
+    <h3 class="heading"> Site in progress. Full site coming soon</h3>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js">
+    </script>
+    <script src="./fadein.js"> </script>
 </body>
 
 </html>
