@@ -5,5 +5,5 @@ def run(server_class=HTTPServer, handler_class=SimpleHTTPRequestHandler):
     httpd = server_class(server_address, handler_class)
     httpd.serve_forever()
 
-    
+
 run()
